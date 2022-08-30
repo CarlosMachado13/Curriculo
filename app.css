@@ -1,0 +1,208 @@
+body {
+  background: url(fundo.png) fixed;
+  color: #000;
+  font-family: "Hind", sans-serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2b2b3d;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 22px;
+}
+h2 {
+  color: #bebece;
+  font-size: 22px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+p {
+  margin-top: 0;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  max-width: 1320px;
+  margin: 20px auto ;
+}
+aside {
+  border-right: 1px solid black;
+  flex-grow: 1;
+  flex-basis: 0%;
+  padding: 1.5rem;
+}
+aside header img {
+  max-width: 200px;
+  padding-bottom: 3rem;
+}
+main {
+  flex-grow: 3;
+  flex-basis: 0;
+  background: #fff;
+}
+
+section {
+  padding: 3rem;
+}
+.my-skills article div progress {
+  height: 25px;
+  min-width: 100%;
+}
+.container,
+aside,
+section {
+  box-shadow: 0 0 0 1px;
+  border: 0;
+}
+
+.cima1 {
+  display: flex;
+}
+.cima2 {
+  display: flex;
+}
+.topo {
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+.topo1 {
+  margin-right: 3rem;
+}
+
+.topo2 {
+  margin-right: 3rem;
+}
+
+.meio1 {
+  display: flex;
+}
+.meio2 {
+  display: flex;
+}
+.topo {
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+.topo1 {
+  margin-right: 3rem;
+}
+
+.topo2 {
+  margin-right: 3rem;
+}
+
+.baixo1 {
+  display: flex;
+}
+.baixo2 {
+  display: flex;
+}
+.topo {
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+.topo1 {
+  margin-right: 3rem;
+}
+
+.topo2 {
+  margin-right: 3rem;
+}
+
+.enviar {
+  margin: 0 auto;
+  width: 10em;
+}
+
+.textarea {
+  resize: none;
+  margin-top: 3rem;
+}
+fieldset {
+  border: 0;
+}
+
+.campo {
+  float: left;
+  margin-bottom: 1em;
+  display: block;
+  padding: 1.5rem;
+  width: 28%;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+  padding: 0.6em;
+  border: 0.5px solid #9e9999;
+  display: block;
+  width: 100%;
+  resize: none;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 0 0 0, 25rem rgb(13 110 253/25%);
+  margin-top: 3rem;
+  margin-left: 3rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 1320px) {
+  .container {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 930px;
+  }
+}
+
+@media (max-width: 930px) {
+  .container {
+    width: 850px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 360px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: 300px;
+  }
+}
